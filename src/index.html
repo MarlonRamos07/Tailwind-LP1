@@ -9,8 +9,8 @@
     <link href="./output.css" rel="stylesheet">
     <title>Digital Agency</title>
 </head>
-<body class="px-[18rem]">
-    <header class="flex items-center justify-between  py-16  font-['Inter']">
+<body>
+    <header class=" px-[18rem] flex items-center justify-between  py-16  font-['Inter']">
             <h1 class="text-gray-800 text-xl font-bold font-['Inter'] uppercase">Digital Agency</h1>
             <div>
                 <ul class= " flex gap-8 justify-start text-gray-800 text-lg font-normal font-['Inter'] lowercase leading-7">
@@ -23,7 +23,7 @@
          
     </header>
     <main>
-        <section class=" flex justify-between my-[5rem] mb-[10rem] ">
+        <section class="px-[18rem] flex justify-between my-[5rem] mb-[10rem] ">
             <div class="flex flex-col justify-center items-start gap-8">
                 <h1 class="w-[540px] justify-start text-gray-800 text-6xl font-bold font-['Inter'] capitalize leading-[64px]">Building digital products, brands & experience</h1>
                 <p class="w-[525px] h-14 justify-start text-gray-800 text-lg font-normal font-['Inter'] capitalize leading-7">Digital Agency is your online team mangement tool that easy and prompt
@@ -34,7 +34,7 @@
             </div>
             <img src="../Assets/HeroImage.svg">
         </section>
-        <section class=" flex  w-[100%]  justify-center ">
+        <section class="px-[18rem]  flex  w-[100%]  justify-center ">
             <div class=" h-20 bg-neutral-100 rounded-lg flex w-[100%] items-center justify-around ">
                 <img src="../Assets/Spotify Logo.svg">
                 <img src="../Assets/Slack Logo.svg">
@@ -43,15 +43,15 @@
             </div>
            
         </section>
-        <section class="flex items-center justify-between mt-[8rem] pl-4" >
-            <img src="../Assets/Image2.svg">
+        <section class=" px-[18rem] flex items-center justify-between mt-[8rem] pl-4" >
+            <img class="px-[18rem]"src="../Assets/Image2.svg">
             <div class="flex flex-col gap-6">
                 <h2 class="w-96 h-24 justify-start text-gray-800 text-5xl font-bold font-['Inter'] capitalize leading-[48px]">Branding & Design system</h2>
                 <p class="w-96 h-20 justify-start text-gray-800 text-base font-normal font-['Inter'] capitalize leading-7">Commonly used in the graphic, print & publishing industris for previewing visual layout and mockups
                 </p>
             </div>
         </section>
-        <section class="flex items-center justify-between mt-[10rem]" >
+        <section class=" px-[18rem] flex items-center justify-between mt-[10rem] mb-[10rem]" >
             <div class=" pl-[2rem] flex flex-col gap-[5rem]">
                 <h2 class="w-96 h-24 justify-start text-gray-800 text-5xl font-bold font-['Inter'] capitalize leading-[48px]">Custome & Plugin Development</h2>
                 <p class="w-96 h-20 justify-start text-gray-800 text-base font-normal font-['Inter'] capitalize leading-7">
@@ -60,19 +60,26 @@
             </div>
             <img src="../Assets/Image3.svg">
         </section>
-        <section class="w-[100%] h-[452px] bg-neutral-100 rounded-[20px] flex items-center justify-around mt-[10rem]">
-            <img src="../Assets/Image4.svg">
-            <div class="flex flex-col items-start gap-[2rem]">
-                <h2 class="w-96 h-24 justify-start text-gray-800 text-5xl font-bold font-['Inter'] leading-[48px]">Be a part of the next big thing</h2>
-                <p class="w-96 h-20 justify-start text-gray-800 text-base font-normal font-['Inter'] capitalize leading-7">
-                    We work with Brans, Startups, to SMEs. Colaborate for more impact and growt
+        <div class="h-[calc(100vh-100px)] flex justify-center items-center">
+            <section class="flex items-center gap-12 px-12 py-10 bg-neutral-100 rounded-[20px]">
+              <img src="../Assets/Image4.svg" alt="Illustration" class="w-[380px] h-auto" />
+              <div class="flex flex-col items-start gap-8 max-w-xl">
+                <h2 class="w-96 h-24 justify-start text-gray-800 text-5xl font-bold font-['Inter'] leading-[48px]">
+                  Be a part of the next big thing
+                </h2>
+                <p class="w-96 h-14 justify-start text-gray-800 text-base font-normal font-['Inter'] leading-7">
+                  We work with brands, startups, to SMEs. Collaborate for more impact and growth.
                 </p>
                 <button class="w-40 h-12 bg-slate-400 rounded-lg">
-                    <a  class="w-28 h-7 text-center justify-center text-white text-base font-semibold font-['Inter'] uppercase leading-7" href="">CONTACT US</a>
+                    <a href="#" class="w-28 h-7 text-center justify-center text-white text-base font-semibold font-['Inter'] uppercase leading-7">
+                        Contact Us
+                      </a>
                 </button>
-            </div>
-        </section>
-        <section class="flex flex-col gap-[2rem] items-center mt-[8rem]">
+                
+              </div>
+            </section>
+          </div>
+        <section class="flex flex-col gap-[2rem] items-center mt-[10rem] w-[100%] ">
             <div class="text-center flex flex-col items-center  gap-[2rem]">
                 <h4 class="w-32 h-6 text-gray-800 font-normal font-['Inter'] capitalize ">TESTIMONIALS</h4>
                 <h2 class="w-96 h-24 text-center justify-start text-gray-800 text-5xl font-bold font-['Inter'] capitalize leading-[48px]">Read What Other have to Say</h2>
@@ -94,7 +101,7 @@
                 </div>
                 
             </div>
-            <div class="w-80 h-80 bg-neutral-100 rounded-[20px] flex flex-col items-center gap-[1rem] p-[2rem] mt-[2rem]">
+            <div class="w-80 h-80 bg-neutral-100 rounded-[20px] flex flex-col items-center gap-[1rem] p-[2rem] mt-[2rem] mb-[10rem]">
                 <img src="../Assets/Mark.svg">
                 <div class="flex flex-col items-center gap-[0.5rem]">
                     <span class="justify-start text-gray-800 text-lg font-normal font-['Inter'] capitalize leading-7">Mark Smith</span>
@@ -104,41 +111,44 @@
             </div>
             </div>
         </section>
-        <footer class="flex justify-around">
-            <div>
-                <h5>Digital Agency</h5>
-                <p>Building digital products, 
-                    brands & experience</p>
-            </div>
-            <div>
-                <h5>Resources</h5>
-                <ul>
-                    <li><a href="">Guides</a></li>
-                    <li><a href="">Blog</a></li>
-                    <li><a href="">Customer Stories</a></li>
-                    <li><a href="">Glossery</a></li>
+        <footer class="bg-neutral-100 py-12  font-['Inter'] min-h-[500px] flex flex-col justify-between ">
+            <div class="w-full mx-auto px-40 flex justify-around gap-8 text-sm text-gray-800">
+              <div class="flex flex-col gap-4">
+                <h5 class="font-bold mb-2">Digital Agency</h5>
+                <p>Building digital products,<br> brands & experience</p>
+              </div>
+              <div class="flex flex-col gap-4" >
+                <h5 class="font-bold mb-2">Resources</h5>
+                <ul class="flex flex-col gap-4">
+                  <li><a href="#">Guides</a></li>
+                  <li><a href="#">Blog</a></li>
+                  <li><a href="#">Customer Stories</a></li>
+                  <li><a href="#">Glossery</a></li>
                 </ul>
-            </div>
-            <div>
-                <h5>Company</h5>
-                <ul>
-                    <li><a href="">About Us</a></li>
-                    <li><a href="">Careers</a></li>
-                    <li><a href="">Partners</a></li>
-                    <li><a href="">Contact Us</a></li>
+              </div>
+              <div class="flex flex-col gap-4">
+                <h5 class="font-bold mb-2">Company</h5>
+                <ul class="flex flex-col gap-4">
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Careers</a></li>
+                  <li><a href="#">Partners</a></li>
+                  <li><a href="#">Contact Us</a></li>
                 </ul>
-            </div>
-            <div>
-                <h5>Social Media</h5>
-                <ul>
-                    <li><a href="">Linkedin</a></li>
-                    <li><a href="">Facebook</a></li>
-                    <li><a href="">Instagram</a></li>
-                    <li><a href="">Twitter</a></li>
+              </div>
+              <div class="flex flex-col gap-4">
+                <h5 class="font-bold mb-2">Social Media</h5>
+                <ul class="flex flex-col gap-4">
+                  <li><a href="#">Linkedin</a></li>
+                  <li><a href="#">Facebook</a></li>
+                  <li><a href="#">Instagram</a></li>
+                  <li><a href="#">Twitter</a></li>
                 </ul>
+              </div>
             </div>
-        </footer>
-        <span>© Matheus. Todos os direitos reservados</span>
+          </footer>
+          <div class=" bg-neutral-100 flex justify-center items-center text-center text-gray-600 text-sm mt-10">
+            © Matheus. Todos os direitos reservados
+          </div>
     </main>
 </body>
 </html>
